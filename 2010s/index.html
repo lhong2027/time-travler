@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>TIME TRAVELER | 2010s</title>
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 	<nav>
 		<a href="../">Home</a>
@@ -13,46 +15,211 @@
 		<a href="../2000s">2000s</a>
 		<a href="./">2010s</a>
 		<a href="" target="_blank">Original article</a>
-		<a href="https://github.com/gabrieldrozdov/time-traveler" target="_blank">GitHub repository (update with your repository)</a>
+		<a href="https://github.com/gabrieldrozdov/time-traveler" target="_blank">GitHub repository</a>
+		<button class="play-button">▶</button>
 	</nav>
 
-	<h1>Welcome to the 2010s!</h1>
 
-	<button onclick="toggleContent();">The 2010s? What’s that like?</button>
+	<marquee>
 
-	<div id="content" class="hidden">
-		<p>
-			This is an era where the Internet becomes everything. It takes on new functions and allows layouts that appease our every want and need. Perhaps by now, we’ve had <em>too</em> much Internet.
-		</p>
+		<img src="assets/heart-hearts.gif" style="max-width: 60px; height: auto;">
+		<img src="assets/heart-hearts.gif" style="max-width: 60px; height: auto;">
+		<img src="assets/heart-hearts.gif" style="max-width: 60px; height: auto;">
 
-		<p>
-			Here’s what sites have now:
-		</p>
+	</marquee>
 
-		<ul>
-			<li>Advanced layouts using <a href="https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/" target="_blank">flexbox</a> and <a href="https://www.joshwcomeau.com/css/interactive-guide-to-grid/" target="_blank">CSS grid</a>.</li>
-			<li><a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp" target="_blank">Media queries</a> that let us create responsive mobile layouts.</li>
-			<li><a href="https://www.w3schools.com/cssref/atrule_font-face.php" target="_blank">Custom fonts.</a></li>
-			<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings" target="_blank">Variable fonts!.</a></li>
-			<li>All the wonders that JavaScript brings.</li>
-		</ul>
+	<h1> The Growth of the Internet and the Web </h1>
 
-		<p>
-			For this version of the site, <em>you may NOT use absolute positioning!</em>
-		</p>
+	<div class="box">
 
-		<p>
-			If flexbox is confusing, try playing <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a>. If CSS Grid is confusing, try playing <a href="https://cssgridgarden.com/" target="_blank">Grid Garden</a>.
-		</p>
 
-		<h2>Examples of sites that are evocative this era:</h2>
-		<ul>
-			<li><a href="https://www.apple.com/" target="_blank">Apple</a></li>
-			<li><a href="https://www.reddit.com/" target="_blank">Reddit</a></li>
-			<li><a href="https://www.nytimes.com/" target="_blank">New York Times</a></li>
-		</ul>
+		<div class="boxElement">
+			<div class="button-position">
+				<button onclick="toggleContent1();" class="history"> History of the Internet </button>
+			</div>
+			<div id="history" class="hidden">
+				<p>
+					The Internet began as a research project in the 1960s. There were many pioneers in research,
+					science, and technology that paved the way. The concept of a ‘galactic network’ of computers was put
+					into practice by the Advanced Research Projects Agency Network (ARPANET) when they created a
+					prototype that sent the first message from a computer at UCLAto one in Stanford University in 1969.
+					In the 1970s, protocols were developed, including Transmission Control Protocol and Internet
+					Protocol (TCP and IP), which might sound familiar. They were used by ARPANET in the 80s to extend
+					the network, and so the internet was born. However, it wasn’t until the 1990s that it took on the
+					form that we have come to know today. In 1989, Tim Berners-Lee described the concept of the Web, a
+					way of accessing data through websites. Later, search engines and the first websites appeared. The
+					code for the World Wide Web was published using the internet, and through input and collaboration,
+					it began to take shape.
+
+				</p>
+			</div>
+		</div>
+
+
+		<div class="boxElement">
+			<div class="button-position">
+				<button onclick="toggleContent2();" class="menu"> Evolution of the Web </button>
+			</div>
+			<div id="evolution" class="hidden">
+				<p>
+					From its beginnings as a work of information sharing and collaboration, the web has gone on to keep
+					those purposes at its heart. As a flexible tool and information service, it has been shaped by those
+					that use it, while others have harnessed it for their own needs.After its conception, the web
+					evolved. People often refer to those different stages of development as iterations one and two, and
+					version three is anticipated. However, others view these alternative ways of using it, meaning they
+					can overlap but also expand. The web’s evolution has relied on technology but also on how users
+					interact with it. For it to advance or evolve, we need the capability to make it happen, such as the
+					protocols required to create the internet. However, we also need the idea, for example, Tim
+					Berners-Lee conceiving of a way to access data and then making it a reality. While Berners-Lee might
+					have first described websites as places to access data, he later went on to talk about the Semantic
+					Web, which was his dream of how it could evolve and be used. We have the concept, and the technology
+					is catching up, which is why many anticipate the emergence of web 3.0 in the near future. Let’s look
+					at the three iterations of the web to understand where it started, what we experience now, and how
+					that could transform in the coming years.
+				</p>
+			</div>
+		</div>
+
+
+
+		<div class="boxElement">
+			<div class="button-position">
+				<button onclick="toggleContent3();" class="web1"> Web 1.0 </button>
+			</div>
+			<div id="web1" class="hidden">
+				<p>
+					The first iteration is often referred to as the read-only version. It’s defined by how people used
+					and still do usethe web. Its main function was a source of information, and the majority of users
+					would be searching for content and reading it. In this iteration, there are authors who create the
+					pages, and there are the users who ‘surf’ the web and consume the content. Websites in this version
+					are fairly static spaces, like an encyclopedia, a shop window, or a catalog, where people can browse
+					and read. The critical distinction is that the majority of users are reading and not adding to the
+					information. The HTML pages add the ability to display text and later images and videos, but there
+					was no way for site visitors to change that data. Many websites still function in this way, which is
+					why it’s crucial to understand the overlapping nature of the different iterations.The initial
+					groundbreaking concept of the web that we still marvel at today is that it increases your reach. An
+					author of a page can present their content to people all over the world, shaking off the constraints
+					of having a physical location. This element is still beneficial, which is why eCommerce sites still
+					function in a read-only Web 1.0 format. There is some interaction from the user, but the data is set
+					by the site creator.
+				</p>
+			</div>
+		</div>
+
+
+		<div class="boxElement">
+			<div class="button-position">
+				<button onclick="toggleContent4();" class="floatbox"> Web 2.0 </button>
+			</div>
+			<div id="web2" class="hidden">
+
+				<p>
+					Our current iteration is Web 2.0 or the read-write version. It moves on from having the majority of
+					users being people who search for and read information. Now, more users are becoming creators and
+					adding to the content on the web. The interactions between people on the web increase, and those
+					creations and communications influence the landscape. The read-write iteration means more rapid
+					change. The potential, when compared to 1.0, is much bigger as each user/creator is leaving their
+					mark on what the web is and what it could become. Examples of sites that are part of this version
+					include Imgur and YouTube, which get their content from user submissions. With the level of user
+					participation increasing, the amount of content accessible through the internet expanded
+					considerably. Through databases, social media, and forms, people starting to come online to be part
+					of a community, to create, and to share instead of just accessing information. While a web full of
+					contributors sounds overwhelmingly positive, Web 2.0 came with challenges too. More interaction
+					meant that people were providing their information online. These details became commodities.
+					Disparities between large companies that hosted sites and their content and the people who
+					interacted with them emerged as transparency decreased. Access points expanded too. Instead of only
+					search engines and browsers, social media sites and applications created small spaces that gave us a
+					doorway to the web, but only to specific content. Introducing the concept of iteration 2.0 started
+					people wondering where the web would go next.
+
+				</p>
+			</div>
+		</div>
+
+
+
+		<div class="boxElement">
+			<div class="button-position">
+				<button onclick="toggleContent5();" class="menu"> Web 3.0 </button>
+			</div>
+			<div id="web3" class="hidden">
+				<p>
+					The newest iteration hasn’t fully arrived yet. However, a fuzzy outline and speculation of what Web
+					3.0 could be are slowly appearing. Now we return to the idea of a ‘Semantic Web’ that Berners-Lee
+					had envisioned. In this version, the machine will talk to the machine enabling daily tasks,
+					mechanisms, or activities to be handled by devices. This evolution moves from read-only and
+					read-write to read-write-execute, meaning that content could be read by software to perform a
+					service or a task. We’re already on the path with the increase in peer-2-peer (P2P) concepts, such
+					as blockchain. Other signs of the new version of the web include virtual reality, open-source
+					software, and the Internet of Things (IoT). The latter includes devices that aren’t computers, which
+					interact on a network. They could be smart home products, sensors, and security systems and allow
+					for automation, monitoring, and remote control. One of the biggest hopes for Web 3.0 as it’s formed
+					is that it will bring back openness and devolve control through a decentralized network. As with
+					ryptocurrencies like Ethereum, no single entity is in control, but actions must follow protocols,
+					are recorded, and therefore transparent. 3.0 might look to address other issues that have come about
+					during the evolution of the web. These include an excess of advertising, data harvesting, breaches,
+					and censorhip.
+				</p>
+			</div>
+		</div>
+
+
+
+		<div class="boxElement">
+			<div class="button-position">
+				<button onclick="toggleContent6();" class="rotate"> Evolution or Revolution? </button>
+			</div>
+			<div id="rev-or-ev" class="hidden">
+				<p>
+					As we’ve previously mentioned, the evolution of the web relies on two aspects: technology and
+					concept. In theory, then, we are in control of where it goes next. If the desire and the design and
+					content of the web moves toward openness and decentralization, the concept just needs the technology to support it. In this way, you could view the adoption and use of Web 3.0 applications as a form of revolution, not just evolution. When users became participants in Web 2.0, it created problems, such as data collection. However, it allowed more people into the system, which means they could also provide solutions to these issues. This evolution will take time as it involves the infrastructure of the web, which means it might not feel different, but the effect will be significant.There’s a chance that Web 3.0 will give us more control and more time in our days. It could also change existing business models, bringing tokens and unrestricted currencies into popular use. The impact of these changes has the potential to spread far beyond the internet and into our daily lives.
+				</p>
+			</div>
+		</div>
+
+
+
+
+		<div class="boxElement">
+			<div class="button-position">
+				<button onclick="toggleContent7();" class="rgb" id="obs-button" onmouseenter="changeColor();" onmouseleave="stopChangeColor();"> Obselete Technology </button>
+		</div>
+
+			<div id="obs-tech" class="hidden">
+				<p>
+					Throughout this article, we’ve been referring to the versions of the web as iterations. This terminology
+					is common in many industries, but especially in technology. Think of the 4G moving to 5G and the release
+					of the iPhone X; each one suggests something bigger and better,or at least a new way of doing things.
+					We might be moving into the era of 3.0, but that doesn’t mean that the way we used to use the web will
+					become obsolete. Each version adds to the functionality rather than changing it completely. That means
+					some websites will still exist as places to browse and read; others will have that option plus the ability to interact and contribute. On top of that, machines could also read that data and execute tasks,
+					all while we avoid letting our data become a commodity. When machines can better understand what is written on the web, we’ll have more efficient search engines, enhanced connectivity with different objects, and fewer people seeking to control the data. Other benefits could include better customer support through chatbots and more helpful and targeted advertising.
+				</p>
+			</div>
+		</div>
+
+
+
+
+		<div class="boxElement">
+			<div class="button-position">
+				<button onclick="toggleContent8();" class="menu"> Accessing Web 3.0 </button>
+			</div>
+			<div id="accessweb3" class="hidden">
+				<p>
+					We’re in an exciting phase as we transition to Web 3.0, even though that concept is not clearly
+					defined yet. By looking at the invention of the internet and the web, we can see that things have come a long way. Last week, we announced that Brave browser now allows users to natively browse .crypto websites on desktop and Android. This is a huge step toward onboarding the masses onto Web 3.0 and is a testament to how quickly this space is moving. In the last decade, the growth of devices, websites, and applications has risen to an almost unmanageable level. While we haven’t hit maximum capacity, the expansion of the web needs to be matched by our laws, social actions, and way of life. Web 3.0 could be an opportunity for work to be done to the infrastructure of the online world and our daily lives to align them more closely.
+				</p>
+			</div>
+		</div>
+
+
 	</div>
+
+	<img src="assets/toothless-cat-cat.gif" class="cat">
 
 	<script src="script.js"></script>
 </body>
+
 </html>

@@ -6,22 +6,92 @@
 	margin: 0;
 }
 
+
+@font-face {
+    font-family: 'arcade';
+    src: url(arcade/ARCADE.TTF);
+}  
+ 
+@font-face {
+    font-family: 'pixelify-sans';
+    src: url(Pixelify_Sans/PixelifySans-VariableFont_wght.ttf)
+}
+
+
 body {
-	background-color: yellow;
-	font-family: sans-serif;
+
+	text-align: center;
+	background-image: url('assets/AdobeStock_417875525.jpeg');
+	padding-bottom: 100px;
 }
 h1 {
-	margin: 20px;
+	margin-top: 200px;
+	color: aqua;
+	font-family: 'arcade';
+	font-size: 90px;
 }
+
 h2 {
 	margin: 20px;
+	color:rgb(84, 244, 255);
+	font-size: 40px;
+	font-family: 'arcade';
+	
 }
+
+h3{
+	margin-top: 100px;
+	color:aqua;
+	font-size: 30px;
+}
+
+
 p {
 	margin: 20px;
+	color: white;
+	height: auto;
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px;
+	font-size: 20px;
 }
+
+
+.content {
+	margin-top: 100px;
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+}
+
+
+nav {
+	color: aqua;
+	font-family: 'arcade';
+	font-size: 30px;
+}
+
+img {
+	width: 400px; 
+    height: auto; 
+	margin-top: 30px;
+}
+
+
 ul {
 	margin: 20px;
 }
+
+
 li {
 	margin: 20px;
+}
+
+a link {
+
+	color: white;
+}
+
+.text{
+
+	width: 80%;
 }
