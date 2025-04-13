@@ -1,9 +1,65 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: "bagel-fat";
+	src: url("assets/BagelFatOne-Regular.ttf");
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body{
-    background-color: aliceblue;
-    font-family: sans-serif;
     color: rgb(19, 46, 108);
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(187, 221, 255);
+}
+
+.inside{
+    background-color: #ffffff;
+    padding: 100px;
 }
 
 a{
-    color: black;
+    color: rgb(0, 136, 255);
+    margin: 10px;
+    font-size: 18px;
+}
+
+nav {
+	font-family: 'bagel-fat';
+	display: flex;
+	gap: 20px;
+	background-color: #ffffff;
+	padding: 15px;
+	overflow: scroll;
+}
+
+
+h1 {
+	margin: 10px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 55px;
+	text-align: center;
+	color: #2a77be;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+img{
+    width: 600px; 
+    height: auto;
 }
