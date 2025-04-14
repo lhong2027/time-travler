@@ -37,6 +37,11 @@ nav {
 	overflow: scroll;
 }
 
+
+nav::-webkit-scrollbar {
+	display: none; 
+}
+
 a {
 	color: #eaa0de;
 }
