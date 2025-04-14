@@ -55,3 +55,17 @@ function stopChangeColor() {
 	clearInterval(myLoop);
 }
 
+//referenced
+let audio;
+let playing = false;
+function playAudioBGM(fileName) {
+   if (playing == false) {
+	   audio = new Audio(fileName);
+	   audio.play();
+	   playing = true;
+   } else {
+	   audio.pause();
+	   playing = false;
+   }
+}
+
